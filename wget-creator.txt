@@ -1,0 +1,1 @@
+Write a Python script called `fetch.py` which behaves like a basic version of `wget`. For example, if I run `python fetch.py http://example.com/foo.txt` it should download foo.txt to the current directory. Don't use requests, or any other library which isn't in the Python standard library.
