@@ -1,0 +1,1 @@
+Create a CSV file with 10 rows for fictional employees of a fictional software company called 'Rabbit Box'. The columns should be first name, second name, age, job title, gender and email address.
