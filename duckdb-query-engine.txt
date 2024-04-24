@@ -1,0 +1,17 @@
+I have a DuckDB database with one table:
+
+CREATE TABLE domains("domain" VARCHAR, pings BIGINT, first_seen DATE, first_seen_week DATE, last_seen DATE);
+
+The rows look like this:
+
+domain|pings|first_seen|first_seen_week|last_seen
+www.twilio.com|12571|2017-03-22|2017-03-22|2023-04-19
+reverse-proxy|9988|2019-03-19|2019-03-20|2023-04-04
+
+The current date is April 25, 2023. Don't use the first_seen_week column. 
+
+How would I answer the following query?
+
+Show the number of domains last year, broken down by the month in which they were first seen.
+
+Just reply with the SQL, don't explain it.
