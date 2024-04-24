@@ -1,0 +1,15 @@
+Here's a CSV file showing employees of a fictional software company called 'Rabbit Box'. 
+Please create a database table to model this data, using SQLite. Then create SQL INSERT commands to 
+populate the table.
+
+"First Name","Second Name","Age","Job Title","Gender","Email Address"
+"Alice","Walker",32,"Software Engineer","Female","alice.walker@rabbitbox.com"
+"Bruce","Taylor",41,"DevOps Engineer","Male","bruce.taylor@rabbitbox.com"
+"Eve","Kim",28,"UX Designer","Female","eve.kim@rabbitbox.com"
+"Charlie","Brown",35,"Product Manager","Male","charlie.brown@rabbitbox.com"
+"Lily","Huang",30,"Data Analyst","Female","lily.huang@rabbitbox.com"
+"Mia","Perez",25,"Junior Developer","Female","mia.perez@rabbitbox.com"
+"Davis","Lee",42,"Technical Lead","Male","davis.lee@rabbitbox.com"
+"Sarah","Chen",29,"SQA Engineer","Female","sarah.chen@rabbitbox.com"
+"Jack","Hernandez",38,"Full Stack Developer","Male","jack.hernandez@rabbitbox.com"
+"Hannah","Singh",26,"Marketing Manager","Female","hannah.singh@rabbitbox.com"
