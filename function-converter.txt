@@ -1,0 +1,14 @@
+Convert this Python function into Typescript:
+
+```
+def combine_videos(chunk_files, output_file="combined_video.mp4"):
+    with open("filelist.txt", "w") as f:
+        for file in chunk_files:
+            f.write(f"file '{file}'\n")
+    cmd = f'ffmpeg -f concat -safe 0 -i filelist.txt -c copy "{output_file}"'
+    subprocess.call(cmd, shell=True)
+    # Clean up
+    for file in chunk_files:
+        os.remove(file)
+    os.remove("filelist.txt")
+```
