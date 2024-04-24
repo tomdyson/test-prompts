@@ -1,0 +1,29 @@
+I have some code like this:
+
+```html
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const ctx = document.getElementById('myChart');
+  [your code here]
+</script>
+```
+
+What code should I use to make a chart which answers this question:
+
+what are the top 7 countries for our subscribers?
+
+Using this data:
+
+c	s
+United Kingdom	7058
+USA	1049
+Germany	320
+Brazil	241
+Canada	228
+Italy	220
+Spain	189
+
+Just reply with the code. Don't explain it. Include all the code, including the first <div>.
